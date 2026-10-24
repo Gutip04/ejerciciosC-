@@ -67,6 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="clase04\WebForm1.aspx" />
+    <Content Include="clase04\WebForm2.aspx" />
+    <Content Include="clase04\while01\11.aspx" />
+    <Content Include="clase04\while01\ejercicio4.aspx" />
+    <Content Include="clase04\while01\ejercicio6.1.aspx" />
+    <Content Include="clase04\while01\WebForm1.aspx" />
+    <Content Include="clase04\while01\WebForm2.aspx" />
+    <Content Include="clase04\while01\WebForm3.aspx" />
     <Content Include="ejerciciosCondicionales\WebForm1.aspx" />
     <Content Include="ejerciciosCondicionales\WebForm2.aspx" />
     <Content Include="ejerciciosCondicionales\WebForm3.aspx" />
@@ -77,6 +85,62 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clase04\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clase04\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clase04\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clase04\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clase04\while01\11.aspx.cs">
+      <DependentUpon>11.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clase04\while01\11.aspx.designer.cs">
+      <DependentUpon>11.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clase04\while01\ejercicio4.aspx.cs">
+      <DependentUpon>ejercicio4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clase04\while01\ejercicio4.aspx.designer.cs">
+      <DependentUpon>ejercicio4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clase04\while01\ejercicio6.1.aspx.cs">
+      <DependentUpon>ejercicio6.1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clase04\while01\ejercicio6.1.aspx.designer.cs">
+      <DependentUpon>ejercicio6.1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clase04\while01\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clase04\while01\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clase04\while01\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clase04\while01\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clase04\while01\WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clase04\while01\WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ejerciciosCondicionales\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
